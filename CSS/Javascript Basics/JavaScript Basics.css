@@ -1,0 +1,37 @@
+
+.container{
+    width: 970px;
+    background-color: rgb(119, 119, 233);
+    color: blanchedalmond;
+    padding: 20px 10px;
+}
+.top{
+    background-color: red;
+    border-radius: 8px;
+    padding: 5px;
+}
+.middle{
+    padding: 20px;
+}
+.left{
+    background-color: greenyellow;
+    display: inline-block;
+    width: 180px;
+    padding: 10px;
+    border-radius: 8px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.right{
+    background-color: rgb(20, 18, 18);
+    width: 676px;
+    border-radius: 8px;
+    padding: 15px;
+    display: inline-block;
+}
+.bottom{
+    background-color: rgb(202, 200, 200);
+    padding: 5px;
+    border-radius: 8px;
+}
+

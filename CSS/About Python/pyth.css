@@ -1,0 +1,123 @@
+.container{
+    width: 1180px;
+    margin: auto;
+}
+header{
+    background-color: rgb(43, 43, 250);
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .left1{
+    flex: 1;
+}
+header .left1 img{
+    width: 100%;
+    height: 100px;
+}
+header .right1{
+    flex: 1;
+}
+header .right1 p{
+    margin-top: -19px;
+    margin-left: 175px;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+header .right1 p a{
+    color: yellow;
+}
+.right1 .bott{
+    background-color: #9e9e9e;
+    padding: 10px;
+    margin-left: 85px;
+    margin-right: 12px;
+    border-radius: 12px;
+    text-align: right;
+}
+
+.right1 .bott input:first-child{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 135px;
+}
+.right1 input:last-child{
+    background-color: rgb(63, 63, 184);
+    color: #fff
+}
+
+header .meduim ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(94, 94, 184);
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+
+}
+header .meduim ul li{
+    color: #fff;
+}
+header .bottom{
+    display: flex;
+}
+header .bottom ul {
+    color: #fff;
+    text-decoration: underline;
+    flex: 1;
+}
+header .bottom .ror{
+    flex: 2;
+}
+header .bottom p:first-child{
+    color: #fff;
+    font-size: 12px;
+}
+header .bottom p:last-child{
+    width: 50%;
+    margin: auto;
+    color: yellow;
+}
+header .bottom p span{
+    color: #fff;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mid hr{
+    background-color: rgb(63, 63, 184);
+    height: 3px;
+}
+.mid div{
+    width: 45%;
+}
+.mid li{
+    color: aqua;
+}
+footer{
+    background-color: rgb(63, 63, 184);
+    padding: 10px;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+footer div p{
+    margin: 0;
+}
+.copy{
+    font-size: 10px;
+    margin: 8px;
+    text-align: center;
+    color: #fff;
+}

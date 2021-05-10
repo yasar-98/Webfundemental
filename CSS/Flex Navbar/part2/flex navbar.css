@@ -1,0 +1,28 @@
+div{
+	display: flex;
+	background-color: #1D90AA;
+	width: 700px;
+	height: 70px;
+}
+img{
+	flex: 1;
+}
+h2{
+	flex: 1;
+	margin: 22px 0;
+}
+ul{
+	padding-left: 20px;
+	flex: 2;
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: space-between;
+} 
+li{
+	flex: 1;
+} 
+a{
+	color: rgb(167, 11, 11);
+	text-decoration: none;
+}

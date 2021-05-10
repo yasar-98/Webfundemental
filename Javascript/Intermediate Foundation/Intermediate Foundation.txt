@@ -1,0 +1,57 @@
+1)
+function x(num){
+var sum=0;
+for(var i=num;i>0;i--){
+	sum+=i;
+  }
+return sum;
+}
+
+2)
+function x(num){
+var mul=1;
+for(var i=num;i>0;i--){
+	mul*=i;
+  }
+return mul;
+}
+
+3)
+function  fibonacci(num){
+    var array=[0,1];
+    for(var i=2 ;i<=num;i++){
+        array.push(array[i-2]+ array[i-1]);
+    }
+    return array;
+}
+
+4)
+function x(arr){
+if(arr.length>1){
+return arr[arr.length-2];
+}else{
+return null;
+}
+
+5)
+function x(arr,d){
+if(arr.length>1){
+return arr[arr.length-d];
+}else{
+return null;
+}
+
+6)
+function x(points){
+points.sort(function(a, b){return a-b});
+return points[points.length-2];
+}
+
+7)
+function x(arr){
+var Narr=[];
+for(var i=0;i<arr.length-1;i++){
+Narr.push(arr[i],arr[i]);
+}
+return Narr;
+}
