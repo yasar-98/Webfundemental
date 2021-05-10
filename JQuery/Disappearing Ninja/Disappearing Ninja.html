@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disappearing Jquery</title>
+    
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$('img').click(function(){
+			$(this).hide()
+		})
+		$('.show').click(function(){
+			$("img").show()
+		})
+    
+    })
+	</script>
+	<style type="text/css">
+        .con{
+            width: 1080px;
+            margin: auto;
+        }
+		img {
+			width: 200px;
+            height: 200px;
+            display: inline-block;
+            margin-right: 15px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="con">
+		<img src="images/bootstrap.png">
+		<img src="images/bootstrap.png">
+		<img src="images/bootstrap.png">
+		<img src="images/bootstrap.png">
+		<img src="images/bootstrap.png">
+		<img src="images/bootstrap.png">
+		<img src="images/bootstrap.png">
+		<img src="images/bootstrap.png">
+	</div>
+	<div>
+		<button class="show">Restore</button>
+	</div>
+
+	
+
+</body>
+</html>

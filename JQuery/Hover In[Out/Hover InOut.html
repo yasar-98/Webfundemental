@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Hover in/out</title>
+	<style>
+		img{
+			width: 200px;
+			height: 200px;
+		}
+	</style>
+	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+			$('img').hover(function() {
+				$(this).attr('src',$(this).attr('x'));
+			}, function(){
+				$(this).attr('src',$(this).attr('y'));
+			});	
+			// console.log(temp);		
+	});
+	</script>
+</head>
+<body>
+	<img src="images/angular.png" x="images/github.png" y="images/angular.png">
+	<img src="images/bootstrap.png" x="images/iOS-Swift.png" y="images/bootstrap.png">
+	<img src="images/socket.png" x="images/lamode.png" y="images/socket.png">
+	<img src="images/expressjs.png" x="images/linkedin.png" y="images/expressjs.png">
+</body>
+</html>
+
