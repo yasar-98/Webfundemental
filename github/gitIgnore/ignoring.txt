@@ -1,0 +1,8 @@
+touch secret.js
+touch .gitignore
+code .gitignore
+// write in VScode: secret.js *.txt
+git add .
+git commit -m "ignoring"
+git push origin main
+// it will push only the .gitignore file
