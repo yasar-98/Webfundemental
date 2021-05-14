@@ -1,0 +1,10 @@
+create a new repo and I call it "basic repo"
+then I open git bash 
+make new folder and I call it basic repo
+git clone https://github.com/yasar-98/basic-repo.git
+touch index.html
+touch style.css
+//make changes in files
+git add .
+git commit -m "update  html and css"
+git push origin main
