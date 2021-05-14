@@ -1,0 +1,8 @@
+mkdir test
+touch index.html
+touch style.css
+git init
+git add .
+git commit -m "update  html and css"
+git status
+git log
