@@ -7,17 +7,19 @@
 			height: 200px;
 		}
 	</style>
-	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'>
+	</script>
 	<script type="text/javascript">
-	$(document).ready(function() {
-			for(var i=1;i<=151;i++){
-				$(body).html("<img src='raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/'"+ i + "'.png'>")
+		$(document).ready(function() {
+			for(var i=1;i<=15;i++){
+				console.log(i)
+				$("div").append("<img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/"+ i +".png'>")
 			}		
 	});
 	</script>
 </head>
 <body>
-    <img src="raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png">
+	<div></div>
 </body>
 </html>
 
